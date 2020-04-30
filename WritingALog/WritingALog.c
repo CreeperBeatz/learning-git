@@ -12,6 +12,7 @@ typedef struct PhoneBook {
 
 int main() {
 	//Opening and configuring the file
+	//TODO change that to be ESP friendly
 	FILE *fp;
 	fopen_s(&fp,"PhoneBookBook.txt", "w");
 	if(fp == NULL) {
