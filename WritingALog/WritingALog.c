@@ -67,6 +67,6 @@ int main() {
 	}
 
 	fclose(fp);
-	
+	//nice
 	return(0);
 }
