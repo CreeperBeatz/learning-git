@@ -24,6 +24,7 @@ int main() {
 	struct PhoneBook WorkingStruct;
 
 	//asking the user how many values he wants to record
+	//TODO change with usr input instead of a string for all
 	int numberOfContacts;
 	char NumberOfContactsCharValue[MAXINPUT];
 	printf("Enter amount of contacts: ");
